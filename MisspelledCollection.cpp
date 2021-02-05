@@ -1,9 +1,5 @@
-#include ".\misspelledcollection.h"
+#include "MisspelledCollection.h"
 
 MisspelledCollection::MisspelledCollection(void)
-{
-}
-
-MisspelledCollection::~MisspelledCollection(void)
 {
 }

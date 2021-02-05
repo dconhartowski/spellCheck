@@ -1,4 +1,4 @@
-#include ".\spellchecker.h"
+#include "SpellChecker.h"
 
 #include <iostream>
 
