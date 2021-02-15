@@ -178,6 +178,8 @@ void SpellChecker::addWordToList(vector < string >& words,
         }
     }
     if(add)//if we should add then push it on the vector
+    // I don't think the above will ever work because there's no
+    // condition in the if statement to be met.
     {
         words.push_back(w);
     }
