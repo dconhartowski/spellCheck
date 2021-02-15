@@ -95,6 +95,8 @@ void SpellChecker::commonLetters(string w, int numLetters,
 {
     //temporary strings to hold the first characters
     //of the misspelled word and the words in the dictionary
+    
+    //might want more descriptive names than tempString1 and tempString2
     string tempString1;
     string tempString2;
     string dictWord;
