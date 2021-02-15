@@ -32,7 +32,7 @@ Dictionary::~Dictionary()
 void Dictionary::loadDictionary()
 {
     ifstream infile(getDictionaryFilename().c_str());
-    if(infile)
+    if(infile /* infile what? No requirement*/)
     {
         string temp; 
         infile>>temp;
