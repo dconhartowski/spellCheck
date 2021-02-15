@@ -5,6 +5,8 @@
 
 using namespace std;
 
+
+//Nowhere near as clean and tidy as InputFile. Hard to follow with my eyes
 Dictionary::Dictionary()
 {
 	setDictionaryFilename("W:/source/sortedwords.txt");
@@ -32,7 +34,8 @@ Dictionary::~Dictionary()
 void Dictionary::loadDictionary()
 {
     ifstream infile(getDictionaryFilename().c_str());
-    if(infile /* infile what? No requirement*/)
+    if(infile //infile what? No requirement
+	)
     {
         string temp; 
         infile>>temp;
